@@ -1,0 +1,36 @@
+.news{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  border: 1px solid red;
+}
+
+.news__card{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.news__title{
+    width: 100%;
+    margin: 10px 0px 0px 20px;
+}
+.news__desc{
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 80px;
+text-align: center;
+
+}
+.news__author{
+  margin-top: 10px;
+    text-align: center;
+}
+.news__published{
+    text-align: center;
+  
+}
+.news__source{
+    text-align: center;
+    margin-top: 10px;
+
+}
